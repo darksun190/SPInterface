@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPInterface", "SPInterface\SPInterface.csproj", "{525E17AA-DC5E-418A-83CD-D52AD4D94528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPInterface.Evaluation", "SPInterface.Evaluation\SPInterface.Evaluation.csproj", "{9ECAB106-8C08-47C1-9099-E61E3F4952D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525E17AA-DC5E-418A-83CD-D52AD4D94528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525E17AA-DC5E-418A-83CD-D52AD4D94528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525E17AA-DC5E-418A-83CD-D52AD4D94528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525E17AA-DC5E-418A-83CD-D52AD4D94528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECAB106-8C08-47C1-9099-E61E3F4952D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECAB106-8C08-47C1-9099-E61E3F4952D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECAB106-8C08-47C1-9099-E61E3F4952D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECAB106-8C08-47C1-9099-E61E3F4952D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFD1F207-FF22-44A1-A56D-0C62A573127B}
+	EndGlobalSection
+EndGlobal

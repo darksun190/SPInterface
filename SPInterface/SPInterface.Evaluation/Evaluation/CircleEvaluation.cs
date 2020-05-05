@@ -25,7 +25,9 @@ namespace SPInterface.Evaluation
         }
         public static List<FeatureMeasurePoint> getFilterPoints(this SPCircle circle, int cutoffRate, FilterType filterType = FilterType.LowPass, FilterMethod filterMethod = FilterMethod.Gaussian)
         {
-            throw new NotImplementedException();
+            var sourcePoints = SPEvaluationPoints.createFromCircle(circle);
+            var result = sourcePoints.getFilterPoints(cutoffRate, filterType, filterMethod).toFeatureMeasurePoints();
+            return result;
         }
     }
 }

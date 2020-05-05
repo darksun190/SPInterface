@@ -52,6 +52,7 @@
     <Compile Include="Evaluation\Outlier.cs" />
     <Compile Include="Evaluation\SPEvaluationPoint.cs" />
     <Compile Include="Evaluation\SPEvaluationPoints.cs" />
+    <Compile Include="Evaluation\SPEvaluationSections.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
